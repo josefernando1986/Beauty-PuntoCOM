@@ -1,0 +1,13 @@
+include _configuraciones.pug
+
+header.header
+    .header__icons
+        a(href="#") Whatsapp
+        a(href="#") Instagram
+        a(href="#") Facebook
+    nav
+        ul.header__menu
+            each link in links
+                li #{link}
+    .header__home
+        a(href="home") Home
