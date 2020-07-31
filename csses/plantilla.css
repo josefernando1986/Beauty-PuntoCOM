@@ -1,13 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&family=Roboto:wght@400;500&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 header {
-  padding: 0 15px;
+  padding: 0 20px;
   height: 50px;
-  border: 1px solid #f00;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  color: #000;
+}
+header .header__nav {
+  opacity: 60%;
+  font: 14px 'Oswald', sans-serif;
+  font-weight: bold;
+  width: 70%;
+}
+.header__menu {
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+}
+header li {
+  list-style: none;
 }
