@@ -2,12 +2,16 @@ include _configuraciones.pug
 
 header.header
     .header__icons
-        a(href="#") Whatsapp
-        a(href="#") Instagram
-        a(href="#") Facebook
+        a(href="#")
+            img.header__icon__facebook(src="/assets/Icons/f.svg", alt="Facebook")
+        a(href="#")
+            img.header__icon__instagram(src="/assets/Icons/i.svg", alt="Instagram")
+        a(href="#")
+            img.header__icon__whatsapp(src="/assets/Icons/w.svg", alt="Whatsapp")     
     nav.header__nav
         ul.header__menu
             each link in links
-                li #{link}
+                li: a(href="#")=link
     .header__home
-        a(href="home") Home
+        a(href="#")
+            img.header__icon__home(src="/assets/Icons/u.svg", alt="Home")
