@@ -29,7 +29,7 @@ header img {
 }
 header .header__nav {
   opacity: 60%;
-  font: 14px 'Oswald', sans-serif;
+  font: 16px 'Oswald', sans-serif;
   font-weight: bold;
   width: 60%;
 }
@@ -46,4 +46,47 @@ header .header__home {
   display: flex;
   align-items: center;
   justify-content: flex-end;
+}
+.footer {
+  text-decoration: none;
+  padding: 0 20px;
+  background-color: #000;
+  font: 16px 'Oswald', sans-serif;
+  text-transform: uppercase;
+}
+.footer a {
+  color: #f2b0d6;
+}
+.footer img {
+  width: 30px;
+  margin-right: 10px;
+}
+.footer__parte1 {
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+.footer__parte1__icons {
+  text-align: center;
+  width: 50%;
+}
+.footer__parte1__nosotros {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+.footer__parte2 {
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+.footer__parte2__envios {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+.footer__parte2__garantias {
+  width: 50%;
+  display: flex;
+  justify-content: center;
 }
