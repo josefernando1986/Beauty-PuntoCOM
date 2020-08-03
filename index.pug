@@ -3,13 +3,13 @@ block contenido
     div.hero
         img.hero__imagen(src="/assets/logos/logo.png" alt="Beauty Punto Com")
     
-    section.mas_vendidos
-        h2 #{titulos[0]}
-        .mas_vendidos__contenedor__productos
-            +caja_producto('img1', 'Sombras', '$15.000')
-            +caja_producto('img2', 'Labial', '$10.000')
-            +caja_producto('img3', 'Plumón', '$25.000')
-            +caja_producto('img4', 'Kit', '$50.000')
+    section.topProductos
+        h2.topProductos__titulo #{titulos[0]}
+        .topProductos__contenedor__productos
+            +caja_producto('./assets/img/Sombra.png', 'Sombras', '$15.000')
+            +caja_producto('./assets/img/labial.png', 'Labial', '$10.000')
+            +caja_producto('./assets/img/delineador.png', 'Plumón', '$25.000')
+            +caja_producto('./assets/img/kit.png', 'Kit', '$50.000')
 
     section.marcas
         h2 #{titulos[1]}

@@ -1,14 +1,15 @@
 -var links = ['cosméticos', 'accesorios', 'cuidado personal', 'miscelanea', 'contacto', 'nosotros', 'politicas de envio', 'politicas de garantía']
 -var titulos = ['productos más vendidos', 'marcas']
--var productos = ['Sombras', 'labial', 'plumón', 'kit']
+-var productos = ['Sombra.png', 'labial.png', 'delineador.png', 'kit.png']
 -var redes = ['Whatsapp', 'Facebook', 'Instagram']
 -var imagenes = ['facebook.svg', 'instagram.svg', 'whatsapp.svg']
 
-mixin caja_producto(img, prod, precio)
+mixin caja_producto(i, prod, precio)
     .contenedorProducto
-        img(src="../assets/" + img, alt="img")
-        h3= prod
-        p= precio
+        a(href="#")
+            img(src=i)
+            h3= prod
+            p= precio
 
 mixin caja_marcas(img)
     .contenedorMarcas

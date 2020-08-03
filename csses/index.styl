@@ -3,7 +3,7 @@
 .hero
     width 100%
     background-color color-primario
-    height 552px
+    height 550px
     display flex
     justify-content center
     box-shadow: 0px 10px 6px #00000029;
@@ -11,3 +11,33 @@
     &__imagen
         height 510px
         width 482px
+
+.topProductos
+    height 600px
+    display flex
+    flex-direction column
+    font-family font-paragraphs
+    &__titulo
+        font font-big-titles
+        margin-top 65px
+        align-self center
+        text-transform uppercase
+        color color-2
+        font-weight 700
+    &__contenedor__productos
+        display flex
+        align-items center
+        justify-content space-around
+        height 550px
+        padding 0 25px
+        .contenedorProducto
+            width 300px
+            height 390px
+            text-align center
+            a
+                color color-1
+            img
+                height 300px
+                margin-top 20px
+            h3
+                margin-top -35px
