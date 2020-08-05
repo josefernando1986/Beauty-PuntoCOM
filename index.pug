@@ -1,7 +1,7 @@
 extends componentes/_plantilla
 block contenido
     div.hero
-        img.hero__imagen(src="/assets/logos/logo.png" alt="Beauty Punto Com")
+            img.hero__imagen(src="/assets/logos/logo.png" alt="Beauty Punto Com")
     
     section.topProductos
         h2.topProductos__titulo #{titulos[0]}
@@ -14,11 +14,11 @@ block contenido
     section.marcas
         h2 #{titulos[1]}
         .marcas__contenedor
-            +caja_marcas('img1')
-            +caja_marcas('img2')
-            +caja_marcas('img3')
-            +caja_marcas('img4')
-            +caja_marcas('img5')
+            +caja_marcas('logos/ame_logo-1.png')
+            +caja_marcas('logos/atenea_logo-2.png')
+            +caja_marcas('logos/milagros_logo-3.png')
+            +caja_marcas('logos/samy_logo.png')
+
 
 
     

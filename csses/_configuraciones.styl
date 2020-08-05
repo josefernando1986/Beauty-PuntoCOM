@@ -10,8 +10,18 @@ color-3 = #00000029
 
 font-size = 16px 
 font-titles = font-size 'Oswald', sans-serif
-font-big-titles = font-size + 10 'Oswald', sans-serif
+font-big-titles = font-size + 20 'Oswald', sans-serif
 font-paragraphs = 'Roboto', sans-serif
+
+titulos()
+    font font-big-titles
+    text-transform uppercase
+    color color-2
+    font-weight 700
+
+alineacion(d)
+    display flex
+    flex-direction d
 
 *
     margin 0

@@ -104,15 +104,17 @@ header .header__home {
   width: 482px;
 }
 .topProductos {
+  margin: 0 auto;
   height: 600px;
+  width: 80%;
   display: flex;
   flex-direction: column;
   font-family: 'Roboto', sans-serif;
 }
 .topProductos__titulo {
-  font: 26px 'Oswald', sans-serif;
   margin-top: 65px;
   align-self: center;
+  font: 36px 'Oswald', sans-serif;
   text-transform: uppercase;
   color: #4a4548;
   font-weight: 700;
@@ -138,4 +140,26 @@ header .header__home {
 }
 .topProductos__contenedor__productos .contenedorProducto h3 {
   margin-top: -35px;
+}
+.marcas {
+  margin: 0 auto;
+  width: 80%;
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+}
+.marcas h2 {
+  align-self: center;
+  margin-top: 25px;
+  font: 36px 'Oswald', sans-serif;
+  text-transform: uppercase;
+  color: #4a4548;
+  font-weight: 700;
+}
+.marcas__contenedor {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 400px;
 }
