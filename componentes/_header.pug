@@ -11,7 +11,7 @@ header.header
     nav.header__nav
         ul.header__menu
             each link in links
-                li: a(href="#")=link
+                li: a(href= './'+ link +'.html')=link
     .header__home
         a(href="#")
             img.header__icon__home(src="./assets/Icons/u.svg", alt="Home")

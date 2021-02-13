@@ -111,3 +111,28 @@ header .header__home {
 .menu__productos ul a {
   color: #f2b0d6;
 }
+
+/* Estilos caja cosméticos */
+
+.cosmeticos_contenedor{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15%;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.cosmeticos_contenedor .contenedorProducto{
+  border: 1px solid red;
+  width: 350px;
+  height: 300px;
+  margin-bottom: 20px;
+}
+
+.cosmeticos_contenedor img{
+  height: 100%;
+  width: 100%;
+}
+
+
